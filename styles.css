@@ -1,0 +1,134 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css");
+
+/********** BORING FIXES **********/
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/********** ACTUAL STYLES **********/
+
+body {
+    margin: 25px auto;
+    line-height: 1.4;
+    font-size: 1.3em;
+    color: #354247;
+    padding: 0px 10px;
+    background-color: #F9F9F9;
+}
+@media screen and (min-width: 700px) {
+    body {
+        margin: 50px auto;
+        max-width: 900px;
+    }
+}
+
+a {
+    color: rgb(36, 141, 123);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1;
+    margin: 1em 0 .5em 0;
+}
+
+h1, h2, h3, h4 {
+    font-family: sans-serif;
+}
+
+h5, h6, p, ul, li, footer {
+    font-family: serif;
+}
+
+ul {
+  list-style-type: square;
+}
+
+footer {
+    font-size: .8em;
+    text-align: center;
+}
+
+/********** CUSTOM CLASSES **********/
+
+/* COLUMNS */
+
+.row::before,
+.row::after {
+  display: table;
+  content: " ";
+  clear: both;
+}
+
+.one,
+.one-third,
+.two-thirds,
+.one-fourth,
+.half {
+  width: 100%;
+}
+
+@media only screen and (min-width: 800px) {
+  .full {
+    width: 100%;
+  }
+  .half {
+    width: calc(96% / 2); /*2 columns, 100-2*2 = 96*/
+  }
+  .third {
+    width: calc(94% / 3); /*3 columns, 100-2*3 = 94*/
+  }
+  .fourth {
+    width: calc(92% / 4); /*4 columns, 100-2*4 = 92*/
+  }
+  .two-thirds {
+    width: calc(96% / 3 * 2); /*2 columns, 100-2*2 = 96*/
+  }
+  .column {
+    float: left;
+    margin-right: calc(100% / 50); 
+  }
+}
+
+/* COLORS
+rgb(214, 54, 73); // red
+rgb(223, 162, 56); // yellow
+rgb(36, 141, 123); // blue
+*/
+
+.red-bg {
+    background-color: rgba(214, 54, 73, .6);
+    color: white;
+}
+
+.yellow-bg {
+    background-color: rgba(223, 162, 56, .75);
+    color: white;
+}
+
+.blue-bg {
+    background-color: rgba(36, 141, 123, .6);
+    color: white;
+}
+
+.red {
+    color: rgb(214, 54, 73);
+}
+
+.yellow {
+    color: rgb(223, 162, 56);
+}
+
+.blue {
+    color: rgb(36, 141, 123);
+}
+
+/*ALIGNMENT*/
+.center {
+    margin: auto;
+    width: 70%;
+    padding: 10px;
+}
