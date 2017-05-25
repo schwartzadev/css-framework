@@ -18,6 +18,7 @@ body {
     color: #354247;
     padding: 0px 10px;
     background-color: #F9F9F9;
+    width: 90%;
 }
 @media screen and (min-width: 700px) {
     body {
@@ -72,25 +73,25 @@ footer {
 }
 
 @media only screen and (min-width: 800px) {
-  .full {
-    width: 100%;
-  }
-  .half {
-    width: calc(96% / 2); /*2 columns, 100-2*2 = 96*/
-  }
-  .third {
-    width: calc(94% / 3); /*3 columns, 100-2*3 = 94*/
-  }
-  .fourth {
-    width: calc(92% / 4); /*4 columns, 100-2*4 = 92*/
-  }
-  .two-thirds {
-    width: calc(96% / 3 * 2); /*2 columns, 100-2*2 = 96*/
-  }
-  .column {
-    float: left;
-    margin-right: calc(100% / 50); 
-  }
+    .full {
+        width: 100%;
+    }
+    .half {
+        width: calc(96% / 2); /*2 columns, 100-2*2 = 96*/
+    }
+    .third {
+        width: calc(94% / 3); /*3 columns, 100-2*3 = 94*/
+    }
+    .fourth {
+        width: calc(92% / 4); /*4 columns, 100-2*4 = 92*/
+    }
+    .two-thirds {
+        width: calc(96% / 3 * 2); /*2 columns, 100-2*2 = 96*/
+    }
+    .column {
+        float: left;
+        margin-right: calc(100% / 50); 
+    }
 }
 
 /* COLORS
@@ -131,4 +132,36 @@ rgb(36, 141, 123); // blue
     margin: auto;
     width: 70%;
     padding: 10px;
+}
+
+/*TABLES*/
+
+.table td {
+    text-align: center;
+}
+
+.table th, td {
+    padding: 7px;
+}
+
+.table table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table tr:nth-child(even){
+    background-color: #f2f2f2
+}
+
+.table th {
+    background-color: rgba(36, 141, 123, .4);
+}
+
+.table table {
+    border-collapse: collapse;
+        overflow-x: auto;
+}
+
+.table tr:nth-child(even){
+    background-color: #f2f2f2
 }
