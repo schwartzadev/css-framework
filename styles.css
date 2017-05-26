@@ -1,5 +1,5 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css');
-@import url('https://fonts.googleapis.com/css?family=Neuton|Work+Sans');
+@import url('https://fonts.googleapis.com/css?family=Neuton:300,700|Work+Sans');
 
 /********** BORING FIXES **********/
 
@@ -138,6 +138,14 @@ rgb(36, 141, 123); // blue
 
 .text-center {
     text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
+.left {
+    text-align: left;
 }
 
 /*TABLES*/
