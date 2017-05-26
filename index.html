@@ -1,16 +1,22 @@
 <link rel="stylesheet" type="text/css" href="styles.css"/>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-
-<h1 class="red text-center">Header #1</h1>
-<h2 class="yellow-bg">Header #2</h2>
-<h3 class="blue-bg">Header #3</h3>
-<h4 class="yellow">Header #4</h4>
-<h5 class="blue">Header #5</h5>
-<h6 class="red-bg">Header #6</h6>
-<div class="center">
-	<p>I am a paragraph of centered text...I am a paragraph of centered text...I am a paragraph of centered text...I am a paragraph of centered text...I am a paragraph of centered text...I am a paragraph of centered text...I am a paragraph of centered text...I am a paragraph of centered text...I am a paragraph of centered text...I am a paragraph of centered text...</p>
+<div class="row">
+	<div class="right column third">
+		<h1>Header</h1>
+		<h2>Header</h2>
+		<h3>Header</h3>
+		<h4>Header</h4>
+		<h5>Header</h5>
+		<h6>Header</h6>
+	</div>
+	<div class="column two-thirds">
+		<h1 class="text-center">Typography</h1>
+		<p>This uses two fonts, courtesy of Google Fonts. The first is <a href="https://fonts.google.com/specimen/Neuton">Neuton</a>, a serif font designed by Brian Zick. The second is a <a href="https://fonts.google.com/specimen/Work+Sans">Work Sans</a>, a self-described "typeface family based loosely on early Grotesques — i.e. Stephenson Blake, Miller & Richard and Bauerschen Giesserei." by Wei Huang.</p>
+	</div>
 </div>
 
+
+<h1 class="text-center">Tables</h1>
 <table class="table center">
 	<tr>
 		<td>
@@ -49,53 +55,97 @@
 		</td>
 	</tr>
 </table>
-
+<h1 class="text-center">Lists</h1>
 <div class="row">
-	<ol class="column half">
-		<li>li</li>
-		<li>li</li>
-		<li>li</li>
-		<li>li</li>
-		<li>li</li>
-	</ol>
-	<ul class="column half">
-		<li>li</li>
-		<li>li</li>
-		<li>li</li>
-		<li>li</li>
-		<li>li</li>
+	<div class="column third">
+		<p>Lists use serif styles, and are pretty normal, as far as lists go. They are very useful in keeping track of things you need to do, and numbering various things, like presidents or fruits.</p>
+	</div>
+	<ul class="column third">
+		<li>Apples</li>
+		<li>Bananas</li>
+		<li>Oranges</li>
+		<li>Peaches</li>
+		<li>Lemons</li>
+		<li>Berries
+			<ol>
+				<li>Strawberries</li>
+				<li>Blueberries</li>
+				<li>Raspberries</li>
+			</ol>
+		</li>
 	</ul>
-</div>
-<div class="row">
-	<p class="column half"><a href="#">Lorem ipsum dolor</a> sit amet, nec cu <u>eruditi perfecto, no</u> tamquam nominati ius. Ad justo commune honestatis est, stet facilis voluptatibus pri ea, veri movet eos cu. Eos id aliquip minimum recteque, est suas euismod scaevola in. Vim omnis aperiam salutandi at, sea elit labitur <b>disputationi</b> an.
-		<br></br>
-		<strike>Et congue aperiam oporteat mea, summo probatus mei at. At sea dicunt labores, prima eruditi no sed. Veritus lucilius honestatis et cum, omnis periculis conceptam eos in. Diam possit urbanitas id est, vim id facete quodsi. Ne vim movet errem utamur, vis prompta dolorum volumus ut.</strike>
-		<br></br>
-		<i>Vim facer maiorum maiestatis in, eu fugit paulo petentium mel. Nam electram complectitur ea, eu eros tritani legendos duo. Vel diam commodo in, eam ut solum debet probatus. At per eleifend cotidieque. Id exerci veritus scribentur per. Ad dicant laudem vel, integre diceret sed ne, an omnes noluisse pri.</i>
-		<br></br>
-		Mea et quot congue eripuit. Mentitum adipisci vel te, has ad unum prima, sea ei quem tamquam offendit. Ne illum semper pri, sumo deserunt ad mel. Per natum intellegebat eu.
-		<br></br>
-		Dicit blandit in has, nec cu amet error dolorum, quem vide explicari ne vis. Illud velit scripta id sea. Mel te audiam neglegentur reprehendunt. Sit at veritus indoctum, ne pro fugit posidonium reprehendunt.
-	</p>
-	<p class="column half">Bacon ipsum dolor amet ribeye pig ground round brisket corned beef. Beef ribs shoulder andouille tri-tip, cupim short loin prosciutto frankfurter brisket jerky rump. Porchetta sirloin pork loin brisket, jowl pancetta swine beef ribs leberkas jerky fatback pastrami ribeye flank. Jerky turkey ham hock, venison ribeye flank hamburger cow meatloaf andouille beef ribs spare ribs prosciutto cupim. Venison turducken pancetta chuck hamburger, kevin tri-tip picanha strip steak t-bone biltong fatback prosciutto.
-		<br></br>
-		Sirloin chuck strip steak bresaola swine landjaeger tail sausage cupim spare ribs t-bone ground round. Shoulder tenderloin t-bone brisket turkey strip steak hamburger short loin picanha ham hock pancetta. Drumstick pig fatback, meatloaf t-bone capicola pork chop boudin tongue. Drumstick pork pork belly frankfurter, kevin fatback hamburger turkey jerky tenderloin andouille beef filet mignon t-bone meatball. Alcatra pastrami cupim ground round t-bone chuck pork. Flank prosciutto short ribs cupim, ground round corned beef shank sausage.
-	</p>
+	<ol class="column third">
+		<li>George Washington</li>
+		<li>John Adams</li>
+		<li>Thomas Jefferson</li>
+		<li>James Madison</li>
+		<li>James Monroe</li>
+		<li>John Quincy Adams</li>
+		<li>Andrew Jackson</li>
+		<li>Martin Van Buren</li>
+		<li>William Henry Harrison</li>
+	</ol>
 </div>
 
+<h1 class="text-center">Text Formatting</h1>
+<div class="row">
+	<p class="column half"><a href="#">Lorem ipsum dolor</a> sit amet, nec cu <u>eruditi perfecto, no</u> tamquam nominati ius. Ad justo commune honestatis est, <b>stet facilis voluptatibus pri ea</b>, veri movet eos cu.
+		<br></br>
+		<strike>Et congue aperiam oporteat mea, summo probatus mei at. At sea dicunt labores, prima eruditi no sed. Veritus lucilius honestatis et cum, omnis periculis conceptam eos in.</strike>
+		<br></br>
+		<i>Vim facer maiorum maiestatis in, eu fugit paulo petentium mel. Nam electram complectitur ea, eu eros tritani legendos duo. Vel diam commodo in, eam ut solum debet probatus.</i>
+	</p>
+	<div class="column half">
+		<p>
+			All sorts of styles are supported, including:
+			<ul>
+				<li><strike>Strikethrough</strike></li>
+				<li><b>Bold</b></li>
+				<li><a href="#">Links</a></li>
+				<li><em>Italics (Emphasis)</em></li>
+				<li><u>Underline</u></li>
+			</ul>
+		</p>
+	</div>
+</div>
 
+<h1 class="text-center">Columns</h1>
+<div class="row">
+	<div class="column half">
+		<h3 class="blue-bg">.half</h3>
+	</div>
+	<div class="column fourth">
+		<h3 class="yellow-bg">.fourth</h3>
+	</div>
+	<div class="column fourth">
+		<h3 class="red-bg">.fourth</h3>
+	</div>
+</div>
 <div class="row">
 	<div class="column third">
-		<h3 class="red-bg">column 1</h3>
-		<p>Echo park wolf cold-pressed, put a bird on it aesthetic cronut fingerstache lyft. Photo booth stumptown church-key, four loko everyday carry sustainable selfies single-origin coffee glossier poke ugh mumblecore YOLO cliche. Retro lumbersexual typewriter gastropub. Yuccie PBR&B synth, vegan taxidermy paleo biodiesel succulents mixtape asymmetrical keffiyeh cardigan unicorn slow-carb 3 wolf moon. Pork belly humblebrag 90's before they sold out plaid tote bag. Neutra chia woke church-key, chambray authentic +1 shabby chic keffiyeh marfa intelligentsia copper mug. Banjo intelligentsia microdosing, iPhone photo booth literally chambray kogi.</p>
+		<h3 class="yellow-bg">.third</h3>
 	</div>
 	<div class="column third">
-		<h3 class="red-bg">column 2</h3>
-		<p>Activated charcoal semiotics cray, kombucha portland gochujang heirloom edison bulb food truck. Mumblecore marfa locavore cred, small batch gentrify twee pinterest humblebrag. Raclette jianbing offal, adaptogen umami vegan gochujang selvage fingerstache keytar pork belly. Taiyaki pop-up twee, af sriracha affogato disrupt ethical irony meditation enamel pin drinking vinegar echo park aesthetic. Heirloom blog marfa mlkshk normcore. Vexillologist shaman tumeric vegan, mlkshk retro edison bulb franzen. Meggings you probably haven't heard of them deep v, woke pour-over cliche put a bird on it plaid chicharrones 90's.</p>
+		<h3 class="red-bg">.third</h3>
 	</div>
 	<div class="column third">
-		<h3 class="red-bg">column 3</h3>
-		<p>Mumblecore XOXO edison bulb swag actually locavore hella la croix. Shabby chic locavore microdosing iceland. Taxidermy synth portland everyday carry, knausgaard hot chicken hella pour-over tilde. Put a bird on it PBR&B lumbersexual, everyday carry meh truffaut readymade waistcoat brooklyn distillery. Leggings cred live-edge, food truck kombucha four loko jean shorts tote bag chartreuse pop-up farm-to-table. Health goth glossier photo booth, selvage fashion axe shabby chic gentrify air plant celiac plaid. Ugh af vinyl mlkshk woke, hell of single-origin coffee hexagon crucifix drinking vinegar cliche twee vice.</p>
+		<h3 class="blue-bg">.third</h3>
+	</div>
+</div>
+<div class="row">
+	<div class="column half">
+		<h3 class="blue-bg">.half</h3>
+	</div>
+	<div class="column half">
+		<h3 class="yellow-bg">.half</h3>
+	</div>
+</div>
+<div class="row">
+	<div class="column third">
+		<h3 class="yellow-bg">.third</h3>
+	</div>
+	<div class="column two-thirds">
+		<h3 class="red-bg">.two-thirds</h3>
 	</div>
 </div>
 
