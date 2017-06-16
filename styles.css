@@ -181,7 +181,47 @@ rgb(36, 141, 123); // blue
     background-color: #f2f2f2
 }
 
-/*OTHER*/
+/* FORMS */
+form > * {
+    /*width: 100%;*/
+    margin: .25em 0;
+}
+
+input[type=text] {
+    border: 1px solid #eee;
+    border-radius: 4px;
+}
+
+select {
+    padding: 0 .2em;
+    border: none;
+    background-color: #eee;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #eee;
+    border: #aaa;
+    padding: .1em .2em;
+    border-radius: 2px;
+}
+
+input[type=button], input[type=submit], input[type=reset], select, input[type=text] {
+    margin-right: .5em;
+}
+
+
+/* OTHER */
+
 .max { /*larger than h1*/
     font-size: 3em;
+}
+
+pre { /*code formatting*/
+    padding: 9.5px;
+    margin: 0 0 10px;
+    font-size: .7em;
+    color: #000;
+    background-color: #eee;
+    border-radius: 4px;
+    overflow-x: hidden;
 }

@@ -1,6 +1,6 @@
 <link rel="stylesheet" type="text/css" href="styles.css"/>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<h1 class="max text-center">Another CSS Framework</h1>
+<h2 class="max text-center">Another CSS Framework</h2>
 <div class="row">
 	<div class="right column third">
 		<h1>Header</h1>
@@ -11,13 +11,49 @@
 		<h6>Header</h6>
 	</div>
 	<div class="column two-thirds">
-		<h1 class="text-center">Typography</h1>
+		<h2 class="text-center">Typography</h2>
 		<p>This uses two fonts, courtesy of Google Fonts. The first is <a href="https://fonts.google.com/specimen/Lusitana">Lusitana</a>, a serif font designed by Ana Paula Megda. The second is a <a href="https://fonts.google.com/specimen/Work+Sans">Work Sans</a>, a self-described "typeface family based loosely on early Grotesques — i.e. Stephenson Blake, Miller & Richard and Bauerschen Giesserei." by Wei Huang.</p>
+<!-- 		<iframe src="https://schwartzadev.github.io/github-widget/?user=JetBrains&repo=kotlin" height="135" frameBorder="0"></iframe> -->
+	</div>
+</div>
+<div class="row">
+	<div class="column half">
+		<h2 class="text-center">Forms</h2>
+		<form>
+			<br>
+			First name: <input type="text" name="text">
+			<br>
+			<input type="radio" name="flavor" value="chocolate"> Chocolate
+			<input type="radio" name="flavor" value="vanilla"> Vanilla
+			<br>
+			<select name="dropdown">
+				<option value="0">Zero</option>
+				<option value="1" selected>One</option>
+				<option value="2">Two</option>
+				<option value="3">Three</option>
+			</select>
+			<input type="checkbox" name="sprinkles" value="on"> Sprinkles
+			<input type="checkbox" name="syrup" value="on"> Syrup
+			<br>
+			Name: <input type="text" name="name" value="">
+			<br>
+			E-mail: <input type="text" name="email" value="">
+			<br>
+			Website: <input type="text" name="website" value="">
+			<br>
+			Gender:	<input type="radio" name="gender" value="female"> Female <input type="radio" name="gender" value="male"> Male
+			<br>
+			<input type="submit" name="submit" value="Submit"/>
+			<input type="reset" name="reset"  value="Reset"/>
+			<input type="button" name="ok" value="OK"/>
+		</form>
+	</div>
+	<div class="column half">
+		<h2>Another section..?</h2>
 	</div>
 </div>
 
-
-<h1 class="text-center">Tables</h1>
+<h2 class="text-center">Tables</h2>
 <table class="table center">
 	<tr>
 		<td>
@@ -56,7 +92,7 @@
 		</td>
 	</tr>
 </table>
-<h1 class="text-center">Lists</h1>
+<h2 class="text-center">Lists</h2>
 <div class="row">
 	<div class="column third">
 		<p>Lists use serif styles, and are pretty normal, as far as lists go. They are very useful in keeping track of things you need to do, and numbering various things, like presidents or fruits.</p>
@@ -88,7 +124,7 @@
 	</ol>
 </div>
 
-<h1 class="text-center">Text Formatting</h1>
+<h2 class="text-center">Text Formatting</h2>
 <div class="row">
 	<p class="column half"><a href="#">Lorem ipsum dolor</a> sit amet, nec cu <u>eruditi perfecto, no</u> tamquam nominati ius. Ad justo commune honestatis est, <b>stet facilis voluptatibus pri ea</b>, veri movet eos cu.
 		<br></br>
@@ -109,8 +145,30 @@
 		</p>
 	</div>
 </div>
+<h2 class="text-center">Code:</h2>
+<code class="code"><pre>@media only screen and (min-width: 800px) {
+	.full {
+		width: 100%;
+	}
+	.half {
+		width: calc(96% / 2); /*2 columns, 100-2*2 = 96*/
+	}
+	.third {
+		width: calc(94% / 3); /*3 columns, 100-2*3 = 94*/
+	}
+	.fourth {
+		width: calc(92% / 4); /*4 columns, 100-2*4 = 92*/
+	}
+	.two-thirds {
+		width: calc(96% / 3 * 2); /*2 columns, 100-2*2 = 96*/
+	}
+	.column {
+		float: left;
+		margin-right: calc(100% / 50);
+	}
+}</pre></code>
 
-<h1 class="text-center">Columns</h1>
+<h2 class="text-center">Columns</h2>
 <div class="row">
 	<div class="column half">
 		<h3 class="blue-bg">.half</h3>
