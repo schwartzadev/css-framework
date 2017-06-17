@@ -6,6 +6,7 @@
 html {
   box-sizing: border-box;
 }
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
@@ -73,7 +74,7 @@ footer {
   width: 100%;
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 700px) {
     .full {
         width: 100%;
     }
@@ -209,6 +210,67 @@ input[type=button], input[type=submit], input[type=reset], select, input[type=te
     margin-right: .5em;
 }
 
+/*NAV*/
+/*@media only screen and (min-width: 700px) {
+
+    .nav li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: .25em 1.5em;
+        text-decoration: none;
+        transition-property: background;
+        transition-duration: .25s;
+        transition-timing-function: linear;
+    }
+
+    .nav ul li {
+        float: left;
+    }
+}
+
+
+.nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: .25em 1.5em;
+    text-decoration: none;
+}
+*/
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #354247;
+}
+
+.nav ul li {
+    float: none;
+}
+
+.nav ul li a {
+    transition-property: background;
+    transition-duration: .25s;
+    transition-timing-function: linear;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: .25em 1.5em;
+    text-decoration: none;
+}
+
+.nav ul li a:hover {
+    background-color: #111;
+}
+
+@media screen and (min-width: 700px){
+    .nav ul li {
+        float: left;
+    }
+}
 
 /* OTHER */
 
