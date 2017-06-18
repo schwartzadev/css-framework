@@ -211,64 +211,43 @@ input[type=button], input[type=submit], input[type=reset], select, input[type=te
 }
 
 /*NAV*/
-/*@media only screen and (min-width: 700px) {
-
-    .nav li a {
-        display: block;
-        color: white;
-        text-align: center;
-        padding: .25em 1.5em;
-        text-decoration: none;
-        transition-property: background;
-        transition-duration: .25s;
-        transition-timing-function: linear;
-    }
-
-    .nav ul li {
-        float: left;
-    }
-}
-
-
-.nav li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: .25em 1.5em;
-    text-decoration: none;
-}
-*/
-
 .nav ul {
     list-style-type: none;
-    margin: 0;
     padding: 0;
-    overflow: hidden;
-    background-color: #354247;
-}
-
-.nav ul li {
-    float: none;
 }
 
 .nav ul li a {
     transition-property: background;
     transition-duration: .25s;
     transition-timing-function: linear;
-    display: block;
-    color: white;
-    text-align: center;
-    padding: .25em 1.5em;
+    display: inline-block;
+    padding: 0 1em;
+    color: rgb(214, 54, 73);
     text-decoration: none;
 }
 
 .nav ul li a:hover {
-    background-color: #111;
+    background-color: #ddd;
 }
 
+.nav {
+    background-color: #eee;
+    border: 2px solid #ccc;
+    border-width: 1px 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+
+
 @media screen and (min-width: 700px){
-    .nav ul li {
-        float: left;
+    .nav li {
+        display: inline;
+    }
+    .nav ul {
+        margin: .5em;
     }
 }
 
