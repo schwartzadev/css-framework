@@ -70,7 +70,7 @@ footer {
 .one-third,
 .two-thirds,
 .one-fourth,
-.half {
+.one-half {
   width: 100%;
 }
 
@@ -78,13 +78,13 @@ footer {
     .full {
         width: 100%;
     }
-    .half {
+    .one-half {
         width: calc(96% / 2); /*2 columns, 100-2*2 = 96*/
     }
-    .third {
+    .one-third {
         width: calc(94% / 3); /*3 columns, 100-2*3 = 94*/
     }
-    .fourth {
+    .one-fourth {
         width: calc(92% / 4); /*4 columns, 100-2*4 = 92*/
     }
     .two-thirds {
